@@ -27,7 +27,7 @@ export class EntraIdServerAuthProvider implements OAuthServerProvider {
     constructor() {
         dotenv.config();
 
-        const requiredEnvVars = ['FR_TENANT_ID', 'FR_PUBLIC_CLIENT_ID', 'FR_API_CLIENT_ID'];
+        const requiredEnvVars = ['FR_TENANT_ID', 'FR_API_CLIENT_SECRET', 'FR_API_CLIENT_ID'];
 
         const missingEnvVars = requiredEnvVars.filter(varName => !process.env[varName]);
         if (missingEnvVars.length > 0) {
