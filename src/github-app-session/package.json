@@ -20,7 +20,7 @@
   "dependencies": {
     "@azure/msal-node": "^3.2.3",
     "@microsoft/microsoft-graph-client": "^3.0.7",
-    "@modelcontextprotocol/sdk": "1.6.0",
+    "@modelcontextprotocol/sdk": "1.25.1",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.1",
